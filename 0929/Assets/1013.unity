@@ -769,6 +769,66 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1056546989
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1056546991}
+  - component: {fileID: 1056546990}
+  m_Layer: 0
+  m_Name: "\u5B78\u7FD2\u6B04\u4F4D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1056546990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056546989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 409c69a25e69d64499d38f3dadfe6e87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 100
+  countProp: 7
+  speed: 3.5
+  jump: 7.7
+  namePlayer: "\u5C0F\u9A0E\u58EB"
+  content: "\u55E8\uFF0C\u4F60\u597D~"
+  isPass: 1
+  isDead: 0
+  weaponCount: 10
+  propName: "\u7D05\u8272\u85E5\u6C34"
+  score: 60
+  walkSpeed: 3.7
+  nameWeapon: "\u6253\u706B\u6A5F"
+  password: 1@3a978321
+  number: 77
+  isOpen: 0
+--- !u!4 &1056546991
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056546989}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.2072759, y: -0.7123974, z: 0.15800802}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1067195697
 GameObject:
   m_ObjectHideFlags: 0
@@ -1120,6 +1180,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1149711564}
   - component: {fileID: 1149711563}
+  - component: {fileID: 1149711565}
   m_Layer: 0
   m_Name: "\u80CC\u666F"
   m_TagString: Untagged
@@ -1194,6 +1255,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1149711565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149711562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 410d666d145325e468d1711da06931f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: -3.5
 --- !u!1 &1187116832
 GameObject:
   m_ObjectHideFlags: 0
@@ -1628,6 +1702,7 @@ GameObject:
   - component: {fileID: 1878233768}
   - component: {fileID: 1878233771}
   - component: {fileID: 1878233770}
+  - component: {fileID: 1878233772}
   m_Layer: 0
   m_Name: "\u73A9\u5BB6"
   m_TagString: Untagged
@@ -1739,6 +1814,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1878233772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878233767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e057e831b501ace43b3c96b543194931, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedVertical: 3.5
+  speedHorizontal: 4
+  pictureUp: {fileID: 0}
+  pictureMiddle: {fileID: 0}
+  pictureDown: {fileID: 0}
 --- !u!1 &1881131914
 GameObject:
   m_ObjectHideFlags: 0
