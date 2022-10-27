@@ -1874,6 +1874,7 @@ GameObject:
   - component: {fileID: 1878233771}
   - component: {fileID: 1878233770}
   - component: {fileID: 1878233772}
+  - component: {fileID: 1878233773}
   m_Layer: 0
   m_Name: "\u73A9\u5BB6"
   m_TagString: Untagged
@@ -2004,6 +2005,20 @@ MonoBehaviour:
   pictureMiddle: {fileID: 21300000, guid: 4f3ca6c2ba5724c4c90aee322cf79137, type: 3}
   pictureDown: {fileID: 21300000, guid: 65019c4b741d6493d97d4072eff8e23b, type: 3}
   spr: {fileID: 1878233768}
+--- !u!114 &1878233773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878233767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53be283544a491840a2e24cf89caffa4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefaBullet: {fileID: 9099002718954001144, guid: 5bd1988bcc234164dad8bae97e2542c3, type: 3}
+  pointSpawn: {fileID: 501212588}
 --- !u!1 &1881131914
 GameObject:
   m_ObjectHideFlags: 0
