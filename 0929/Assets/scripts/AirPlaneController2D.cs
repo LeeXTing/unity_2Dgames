@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Selena
+namespace selena
 {
     /// <summary>
     /// 2D飛機控制器

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Selena
+namespace selena
 {
     /// <summary>
     /// 移動系統

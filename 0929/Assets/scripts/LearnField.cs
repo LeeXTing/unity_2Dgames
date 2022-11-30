@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Selena
+namespace selena
 {
     /// <summary>
     /// 學習欄位 Field

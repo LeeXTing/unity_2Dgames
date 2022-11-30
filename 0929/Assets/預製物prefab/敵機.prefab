@@ -161,7 +161,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefaBullet: {fileID: 9099002718954001144, guid: a0a37fdd8d12c4f4199a05c816250c1c, type: 3}
   pointSpawn: {fileID: 4169632766884063988}
-  interval: 1.5
+  soundFire: {fileID: 8300000, guid: 033b1daf4512444018111f90f909d172, type: 3}
+  interval: 2
 --- !u!114 &6048205888653418608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -176,6 +177,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameTarget: "\u5B50\u5F48"
   prefabExplosion: {fileID: 1657756840488027903, guid: 149e95f5aff25ea47820ce52138e2c21, type: 3}
+  soundHit: {fileID: 8300000, guid: 5a734bcdccebe4d0aa169e4bc43d5210, type: 3}
+  soundExplosion: {fileID: 8300000, guid: eeac7ff7e4ad44587b11429a7e7b8fc1, type: 3}
 --- !u!1 &9161231691235493945
 GameObject:
   m_ObjectHideFlags: 0
@@ -200,7 +203,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9161231691235493945}
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: -1.15, y: 0, z: 0}
+  m_LocalPosition: {x: -1.51, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
